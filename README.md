@@ -1,6 +1,6 @@
 # Hello this is my project for learn git commands.
 ---
-##Also learn some terminal commands like:
+## Also learn some terminal commands like:
 1. mkdir
 2. touch
 3. pwd
@@ -8,7 +8,7 @@
 5. mv
 6. rm
 ---
-##Git commands:
+## Git commands:
 1. git add
 2. git commit
 3. git log
