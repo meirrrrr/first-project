@@ -22,3 +22,8 @@ Code highlighter
       <button class="btn again">Again!</button>
       <div class="number">?</div>
 ```
+---
+## Head
+Файл head - один из служебный файлов папки .git . Он указывает на коммит, который сделан последним (то есть самый новый). 
+Когда делаем коммит, Git обновляет refs/heads/master записывает в него хеш последнего коммита. Получается, что HEAD тоже обновляется, так как ссылается на refs/heads/master.
+
