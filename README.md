@@ -28,6 +28,7 @@ Code highlighter
 Когда делаем коммит, Git обновляет refs/heads/master записывает в него хеш последнего коммита. Получается, что HEAD тоже обновляется, так как ссылается на refs/heads/master.
 ---
 ## Статусы файлов в git
+![Цикл](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png)
 1. Файл только создан. Git про него еще не знает. Состояние **untracked**
 2. Файл добавили в staging area с помощью **git add**.
    - Возможно, изменили файл ещё раз. Состояния: staged, modified (+ tracked).
@@ -36,5 +37,5 @@ Code highlighter
 4. Изменили файл. Состояние: **modified (+ tracked)**.
 5. Снова добавили в staging area с помощью **git add**. Состояния: **staged (+ tracked)**.
 6. Сделали коммит. Состояния: **tracked**.
-7. ![Цикл](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png)
+
 
