@@ -36,5 +36,5 @@ Code highlighter
 4. Изменили файл. Состояние: **modified (+ tracked)**.
 5. Снова добавили в staging area с помощью **git add**. Состояния: **staged (+ tracked)**.
 6. Сделали коммит. Состояния: **tracked**.
-7. ![Цикл](/Users/meir/Downloads/Image.png)
+7. ![Цикл](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png)
 
